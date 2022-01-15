@@ -5,7 +5,34 @@
     </head>
 
     <body>
-        TO DO LISTS
+        <header>
+            <h1> TO DO LIST</h1>
+            
+        </header>
+
+        <main>
+            <form>
+                <input type="text" name="task" placeholder="new task">
+                <input type="submit" value="Add Task">
+            </form>
+            <section>
+                <h2>Tasks</h2>
+    
+                <div id="tasks">
+                    <div>
+                        <input type="text" class="text" value="Pending tasks">
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit Task</button>
+                        <button class="delete">Delete Task</button>
+                    </div>
+    
+                </div>
+
+            </section>
+        </main>
+
+        <script src="todolist.js"></script>
     </body>
 
 </html>
