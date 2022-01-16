@@ -8,9 +8,8 @@
 body {
     color: var(--body-color);
     position: relative;
-    background-image: url("/assets/background_v2.png");
+    background: url("/assets/background_v2.png") no-repeat center center;
     height: 100vh;
-    background-size: cover;
     background-color: var(--bg-color);
 }
 
@@ -34,13 +33,70 @@ body > p {
 img {
     max-width: 750px;
     max-height: 750px;
-    border-radius: 40%;
-    width: 40%;
+    border-radius: 0%;
+    width: 60%;
 }
 
-.grid-table {
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto;
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.box1 {
+    position:absolute;
+    padding-top: 190px;
+    padding-left: 140px;
+    z-index: 1;
+    border: 1px solid black;
+}
+
+.box2 {
+    position: absolute;
+    padding-left: 30vw;
+    padding-top: 15vh;
+    z-index: 1;
+    border: 1px solid black;
+}
+
+.box3 {
+    position: absolute;
+    padding-left: 55vw;
+    padding-top: 15vh;
+    z-index: 1;
+    border: 1px solid black;
+}
+.box4 {
+    position: absolute;
+    padding-left: 75vw;
+    justify-items: center;
+    align-items: center;
+}
+
+/* .box5 {
+    position: absolute;
+    padding-left: 1vw;
+    padding-top: 1vh;
+}
+
+.box6 {
+    position: absolute;
+    padding-left: 1vw;
+    padding-top: 1vh;
+}
+
+.box7 {
+    position: absolute;
+    padding-left: 1vw;
+    padding-top: 1vh;
+} */
+
+.box8 {
+    position: absolute;
+    padding-left: 75vw;
+    padding-top: 30vh;
+    justify-items: center;
+    align-items: center;
 }
 
