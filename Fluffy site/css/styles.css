@@ -1,0 +1,54 @@
+@import url('https://fonts.google.com/specimen/Lato');
+
+:root {
+    --body-color: black;
+    --bg-color: rgb(182, 139, 139);
+}
+
+body {
+    color: var(--body-color);
+    position: relative;
+    background-image: url("/assets/background_v2.png");
+    height: 100vh;
+    background-size: cover;
+    background-color: var(--bg-color);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+body > h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+body > p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+img {
+    max-width: 750px;
+    max-height: 750px;
+    border-radius: 40%;
+    width: 40%;
+}
+
+.grid-table {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-column-gap: 2em;
+}
+
+.grid-table > div {
+    border: 1px solid black;
+}
+
+.grid-table > div:nth-child(odd) {
+    border: 2px solid rgb(0, 0, 0)
+}
