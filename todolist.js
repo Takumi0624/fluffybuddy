@@ -1,4 +1,4 @@
-window.localStorage;
+
 
 window.addEventListener('load', () => {
     const form = document.querySelector("#new-task-add");
@@ -37,11 +37,11 @@ window.addEventListener('load', () => {
 
         const task_edit_el = document.createElement("button");
         task_edit_el.classList.add("edit");
-        task_edit_el.innerHTML = "Edit";
+        task_edit_el.innerHTML = "<img src='edit.png' width='30' />";
 
         const task_delete_el = document.createElement ("button");
         task_delete_el.classList.add("delete");
-        task_delete_el.innerHTML = "Delete";
+        task_delete_el.innerHTML = "<img src='images.png' width='30' />";
 
         task_actions_el.appendChild(task_edit_el);
         task_actions_el.appendChild(task_delete_el);
