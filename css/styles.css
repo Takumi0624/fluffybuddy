@@ -108,6 +108,13 @@ img {
 
 /* TO DO LIST STYLES STARTS HERE */
 
+.box3{
+   box-sizing: border-box;
+   margin: 0;
+   font-family: "Atkinson Hyperlegible", "Times News Romans";
+   width: "300px";
+}
+
 #list-body {
     border: solid;
     margin-left: auto;
