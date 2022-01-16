@@ -1,0 +1,131 @@
+:root {
+    --dark: #374151;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   font-family: "Fira Sans", "san serif" ;
+   
+}
+
+body {
+    display: flex;
+    flex-direction: column ;
+    min-height: 100 vh;
+    background: white;
+    color: black;
+
+}
+
+header {
+    padding: 0px;
+    margin: 5  auto;
+    text-align: center;
+
+}
+
+/*TO DO LIST */
+header h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(61, 3, 61);
+    padding: 30px;
+}
+
+input, button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+
+}
+
+#new-task-add {
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    flex: 1 1 0%;
+}
+
+#new-task-text {
+    background: rgb(170, 170, 170);
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+#new-task-text::placeholder {
+    color: black;
+    font-size: 20px;
+}
+
+#new-task-add-task {
+    color: black;
+    font-size: 20px;
+    background: rgb(170, 170, 170);
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#new-task-add-task:hover {
+    background-color: black;
+    color: white;
+}
+
+main {
+    flex: 1 1 0%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#tasks-list {
+    padding: 20px;
+}
+
+#tasks-list h2 {
+    font-size: 40px;
+    color:rgb(61, 3, 61);
+    padding: 10px;   
+}
+
+#tasks {
+    display: flex;
+    justify-content: space-between;
+  
+    
+}
+
+#tasks .task {
+    font-size: 20px;
+    background: rgb(170, 170, 170);
+    border-radius: 20px;
+    padding: 15px;
+    
+}
+
+#task-text {
+    font-size: 20px;
+    display: block;
+}
+
+#edit, #delete{
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(170, 170, 170) ;
+    padding: 15px;
+
+}
+#edit:hover {
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+#delete:hover {
+    background: black;
+    color: white;
+    padding: 15px;
+}
