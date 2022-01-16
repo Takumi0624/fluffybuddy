@@ -1,14 +1,9 @@
-:root {
-    --dark: #374151;
-}
+
 
 * {
    box-sizing: border-box;
    margin: 0;
    font-family: "Atkinson Hyperlegible", "Times News Romans";
-   
-   
-   
 }
 
 body {
