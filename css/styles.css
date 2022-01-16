@@ -34,7 +34,7 @@ img {
     max-width: 750px;
     max-height: 750px;
     border-radius: 0%;
-    width: 60%;
+    width: 55%;
 }
 
 .box {
@@ -69,7 +69,8 @@ img {
 }
 .box4 {
     position: absolute;
-    padding-left: 75vw;
+    padding-left: 77vw;
+    padding-top: 0vh;
     justify-items: center;
     align-items: center;
 }
@@ -94,8 +95,8 @@ img {
 
 .box8 {
     position: absolute;
-    padding-left: 75vw;
-    padding-top: 30vh;
+    padding-left: 77vw;
+    padding-top: 25vh;
     justify-items: center;
     align-items: center;
 }
