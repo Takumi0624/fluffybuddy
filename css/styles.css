@@ -5,6 +5,10 @@
     --bg-color: rgb(182, 139, 139);
 }
 
+* {
+    font-family: 'Lato', sans-serif;
+ }
+
 body {
     color: var(--body-color);
     position: relative;
@@ -50,7 +54,7 @@ img {
     padding-left: 140px;
     z-index: 1;
     border: 1px solid black;
-}
+} /* spotify */
 
 .box2 {
     position: absolute;
@@ -58,22 +62,23 @@ img {
     padding-top: 15vh;
     z-index: 1;
     border: 1px solid black;
-}
+} /* timer */
 
 .box3 {
     position: absolute;
-    padding-left: 55vw;
-    padding-top: 15vh;
+    padding-left: 52vw;
+    padding-top: 12vh;
     z-index: 1;
     border: 1px solid black;
-}
+} /* to-do list */
+
 .box4 {
     position: absolute;
     padding-left: 77vw;
     padding-top: 0vh;
     justify-items: center;
     align-items: center;
-}
+} /* fox */
 
 /* .box5 {
     position: absolute;
@@ -99,5 +104,127 @@ img {
     padding-top: 25vh;
     justify-items: center;
     align-items: center;
+} /* cat */
+
+/* TO DO LIST STYLES STARTS HERE */
+
+#list-body {
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(223, 224, 223);
+    
 }
 
+input, button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+
+}
+
+#new-task-add {
+    text-align: center;
+    margin: 0 auto;
+    
+    padding: 30px;
+    flex: 1 1 0%;
+}
+
+#new-task-text {
+    background: rgb(170, 170, 170);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 10px;
+
+}
+
+#new-task-text::placeholder {
+    color: black;
+    
+}
+
+#new-task-add-task {
+    color: black;
+    font-size: 10px;
+    background: rgb(170, 170, 170);
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#new-task-add-task:hover {
+    background-color: black;
+    color: white;
+}
+
+main {
+    flex: 1 1 0%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#tasks-list {
+    padding: 10px;
+    
+}
+
+#tasks-list h2 {
+    font-size: 20px;
+    color: black;
+    padding: 10px;   
+    font-weight: bold;
+}
+
+#tasks {
+    /*display: flex;*/
+    justify-content: space-between;
+    font-size: 10px; 
+  
+    
+}
+
+#tasks .task {
+    font-size: 12px;
+    background: rgb(209, 204, 136);
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    
+}
+
+.task .content {
+    flex: 1 1 0%;
+}
+
+
+.task .content .task-text {
+    font-size: 14px;
+    font-family: Arial;
+    display: inline-block;
+    padding: 10px;
+
+    
+}
+
+.edit, .delete{
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 8px;
+    background-color: rgb(170, 170, 170) ;
+    padding: 5px;
+
+}
+.edit:hover {
+    background: black;
+    color: white;
+    padding: 5px;
+}
+
+.delete:hover {
+    background: black;
+    color: white;
+    padding: 5px;
+}
