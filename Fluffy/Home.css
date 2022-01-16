@@ -1,0 +1,338 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/How-Your-Pet-Can-Improve-Your-Studying-Routine.png");
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 693px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 744px;
+  height: 375px;
+  filter: brightness(0.8);
+  margin: 159px auto 0;
+}
+
+.u-section-1 .u-text-1 {
+  text-align: center;
+  margin: -43px auto 60px 433px;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 571px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 357px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 425px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 720px;
+    height: 363px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: -31px;
+    margin-left: 273px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 334px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 540px;
+    height: 272px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 60px;
+    margin-left: 205px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 233px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 171px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 129px;
+  }
+} .u-section-2 {
+  background-image: url("images/pexels-photo-5797997.png");
+  background-position: 50% 100%;
+  min-height: 1295px;
+}
+
+.u-section-2 .u-image-1 {
+  width: 424px;
+  height: 424px;
+  object-position: 50% 0%;
+  margin: 0 calc(((100% - 1140px) / 2) + -114px) 0 auto;
+}
+
+.u-section-2 .u-text-1 {
+  font-weight: 400;
+  margin: -311px auto 0 calc(((100% - 1140px) / 2) + 409px);
+}
+
+.u-section-2 .u-image-2 {
+  width: calc(((100% - 1140px) / 2) + 309px);
+  height: 389px;
+  margin: 621px auto 60px 0;
+}
+
+@media (max-width: 1199px) {
+   .u-section-2 {
+    min-height: 1068px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-right: calc(((100% - 940px) / 2) + -114px);
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-left: calc(((100% - 940px) / 2) + 337px);
+  }
+
+  .u-section-2 .u-image-2 {
+    width: calc(((100% - 940px) / 2) + 309px);
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-2 {
+    min-height: 818px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-right: calc(((100% - 720px) / 2) + -114px);
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-left: calc(((100% - 720px) / 2) + 258px);
+  }
+
+  .u-section-2 .u-image-2 {
+    width: calc(((100% - 720px) / 2) + 309px);
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-2 {
+    min-height: 614px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-right: calc(((100% - 540px) / 2) + -114px);
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-left: calc(((100% - 540px) / 2) + 194px);
+  }
+
+  .u-section-2 .u-image-2 {
+    width: calc(((100% - 540px) / 2) + 309px);
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-2 {
+    min-height: 387px;
+  }
+
+  .u-section-2 .u-image-1 {
+    margin-right: calc(((100% - 340px) / 2) + -114px);
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-left: calc(((100% - 340px) / 2) + 122px);
+  }
+
+  .u-section-2 .u-image-2 {
+    width: calc(((100% - 340px) / 2) + 309px);
+  }
+} .u-section-3 {
+  background-image: none;
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 804px;
+}
+
+.u-section-3 .u-text-1 {
+  font-weight: 400;
+  margin: 65px auto 60px 440px;
+}
+
+@media (max-width: 1199px) {
+   .u-section-3 {
+    min-height: 804px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-left: 363px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-text-1 {
+    margin-left: 278px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-text-1 {
+    margin-left: 209px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-3 {
+    min-height: 755px;
+  }
+
+  .u-section-3 .u-sheet-1 {
+    min-height: 755px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-left: 518px;
+  }
+}.u-section-4 .u-sheet-1 {
+  min-height: 811px;
+}
+
+.u-section-4 .u-text-1 {
+  font-weight: 400;
+  text-align: center;
+  margin: 84px auto 60px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 739px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 1050px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 962px;
+  }
+
+  .u-section-4 .u-text-1 {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 963px;
+  }
+}.u-section-5 .u-sheet-1 {
+  min-height: 749px;
+}
+
+.u-section-5 .u-text-1 {
+  margin: 60px auto 0;
+}
+
+.u-section-5 .u-gallery-1 {
+  height: 423px;
+  margin-top: 67px;
+  margin-bottom: 60px;
+  grid-gap: 17px 17px;
+}
+
+.u-section-5 .u-gallery-inner-1 {
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 17px;
+}
+
+.u-section-5 .u-over-slide-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-5 .u-over-slide-2 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+.u-section-5 .u-over-slide-3 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  padding: 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-5 .u-sheet-1 {
+    min-height: 675px;
+  }
+
+  .u-section-5 .u-gallery-1 {
+    height: 349px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-5 .u-sheet-1 {
+    min-height: 1128px;
+  }
+
+  .u-section-5 .u-gallery-1 {
+    height: 802px;
+  }
+
+  .u-section-5 .u-gallery-inner-1 {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-5 .u-sheet-1 {
+    min-height: 2093px;
+  }
+
+  .u-section-5 .u-gallery-1 {
+    height: 1805px;
+  }
+
+  .u-section-5 .u-gallery-inner-1 {
+    grid-template-columns: repeat(1, auto);
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-5 .u-sheet-1 {
+    min-height: 1418px;
+  }
+
+  .u-section-5 .u-gallery-1 {
+    height: 1136px;
+  }
+}
