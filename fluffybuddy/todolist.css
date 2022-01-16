@@ -1,0 +1,152 @@
+
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   font-family: "Atkinson Hyperlegible", "Times News Romans";
+}
+
+body {
+    display: flex;
+    flex-direction: column ;
+    min-height: 100 vh;
+    color: black;
+    border: 20px;
+    
+}
+
+#list-body {
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(223, 224, 223);
+    
+}
+
+header {
+    padding: 0px;
+    margin: 5  auto;
+    text-align: center;
+
+}
+
+/*TO DO LIST */
+header h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    padding: 30px;
+}
+
+input, button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+
+}
+
+#new-task-add {
+    text-align: center;
+    margin: 0 auto;
+    
+    padding: 30px;
+    flex: 1 1 0%;
+}
+
+#new-task-text {
+    background: rgb(170, 170, 170);
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+    
+    
+}
+
+#new-task-text::placeholder {
+    color: black;
+    
+}
+
+#new-task-add-task {
+    color: black;
+    font-size: 20px;
+    background: rgb(170, 170, 170);
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#new-task-add-task:hover {
+    background-color: black;
+    color: white;
+}
+
+main {
+    flex: 1 1 0%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#tasks-list {
+    padding: 20px;
+    
+}
+
+#tasks-list h2 {
+    font-size: 40px;
+    color: black;
+    padding: 10px;   
+    font-weight: bold;
+}
+
+#tasks {
+    /*display: flex;*/
+    justify-content: space-between;
+    font-size: 30px; 
+  
+    
+}
+
+#tasks .task {
+    font-size: 20px;
+    background: rgb(170, 170, 170);
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    
+}
+
+.task .content {
+    flex: 1 1 0%;
+}
+
+
+.task .content .task-text {
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px;
+
+    
+}
+
+.edit, .delete{
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(170, 170, 170) ;
+    padding: 15px;
+
+}
+.edit:hover {
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+.delete:hover {
+    background: black;
+    color: white;
+    padding: 15px;
+}
