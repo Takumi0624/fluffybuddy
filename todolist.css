@@ -7,15 +7,25 @@
    margin: 0;
    font-family: "Atkinson Hyperlegible", "Times News Romans";
    
+   
 }
 
 body {
     display: flex;
     flex-direction: column ;
     min-height: 100 vh;
-    background: white;
     color: black;
+    border: 20px;
+    
+}
 
+#list-body {
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(223, 224, 223);
+    
 }
 
 header {
@@ -44,6 +54,7 @@ input, button {
 #new-task-add {
     text-align: center;
     margin: 0 auto;
+    
     padding: 30px;
     flex: 1 1 0%;
 }
@@ -53,6 +64,7 @@ input, button {
     border-radius: 20px;
     padding: 15px;
     font-size: 20px;
+    
     
 }
 
@@ -83,12 +95,14 @@ main {
 
 #tasks-list {
     padding: 20px;
+    
 }
 
 #tasks-list h2 {
     font-size: 40px;
     color: black;
     padding: 10px;   
+    font-weight: bold;
 }
 
 #tasks {
@@ -115,7 +129,9 @@ main {
 
 .task .content .task-text {
     font-size: 20px;
-    display: block;
+    display: inline-block;
+    padding: 15px;
+
     
 }
 
